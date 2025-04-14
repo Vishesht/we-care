@@ -2,6 +2,33 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import React from "react";
+
+// Define styles with explicit types
+const styles: { [key: string]: React.CSSProperties } = {
+  container: {
+    textAlign: "center", // This is now a valid CSS value
+    marginTop: "100px",
+    padding: "20px",
+    fontFamily: "Arial, sans-serif",
+  },
+  icon: {
+    fontSize: "60px",
+    color: "red",
+  },
+  heading: {
+    fontSize: "2rem",
+    margin: "20px 0 10px",
+  },
+  message: {
+    fontSize: "1.2rem",
+    marginBottom: "5px",
+  },
+  redirect: {
+    fontSize: "0.9rem",
+    color: "#555",
+  },
+};
 
 export default function PaymentCancelled() {
   const navigate = useRouter();
@@ -26,28 +53,3 @@ export default function PaymentCancelled() {
     </div>
   );
 }
-
-const styles = {
-  container: {
-    textAlign: "center",
-    marginTop: "100px",
-    padding: "20px",
-    fontFamily: "Arial, sans-serif",
-  },
-  icon: {
-    fontSize: "60px",
-    color: "red",
-  },
-  heading: {
-    fontSize: "2rem",
-    margin: "20px 0 10px",
-  },
-  message: {
-    fontSize: "1.2rem",
-    marginBottom: "5px",
-  },
-  redirect: {
-    fontSize: "0.9rem",
-    color: "#555",
-  },
-};
