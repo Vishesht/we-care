@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Form Container */
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+/* Heading */
+.form-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+/* Recommendation Text */
+h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.fertilizer-container {
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.form-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #38a169;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #2f855a;
+}
+
+.submit-btn:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: #e53e3e;
+  font-size: 13px;
+  margin-top: 4px;
+  display: block;
+}
+
+.result {
+  background: #f0fff4;
+  border-left: 4px solid #38a169;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.info-text {
+  font-size: 16px;
+  color: #4a5568;
+  margin-top: 10px;
+}
