@@ -28,11 +28,9 @@ export default function Header({ setActiveTab }) {
                 Fertilizer Recommendations
               </a>
             </li>
-            {/* <li className={selectedTab === "forecast" ? "active" : ""}>
-              <a onClick={() => handleTabClick("forecast")}>
-                Rainfall & Yield Forecasts
-              </a>
-            </li> */}
+            <li className={selectedTab === "forecast" ? "active" : ""}>
+              <a onClick={() => handleTabClick("forecast")}>Weather</a>
+            </li>
             <li className={selectedTab === "sales" ? "active" : ""}>
               <a onClick={() => handleTabClick("sales")}>Crop Sales</a>
             </li>
